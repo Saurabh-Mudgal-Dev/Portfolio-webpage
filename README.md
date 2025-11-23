@@ -25,3 +25,7 @@ Since this is a static website, no compilation or server setup is required.
 * Complete CSS Portfolio: A custom-built project slider using @keyframes animation (no JavaScript required).
 * Responsive Design: Media queries ensure layout adapts from desktop monitors to mobile screens.
 * Interactive UI: Hover effects on profile images and contact icons using CSS transforms.        
+
+
+"Learning to merge branches"
+
