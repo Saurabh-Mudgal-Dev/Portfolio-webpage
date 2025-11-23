@@ -15,21 +15,30 @@
 
 <body id="start">
    <header>
-      <h1>Saurabh Mudgal</h1>
-      <nav class="nav">
-         <div>
+      <div class="header-container">
+         <div class="heading">Saurabh Mudgal</div>
+         <nav class="nav">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Technical Skills</a>
             <a href="#contact">Contact Me</a>
-         </div>
-      </nav>
+         </nav>
+      </div>
    </header>
    <main>
+
+      <section id="hero">
+         <div class="hero-text">
+            <h1>Hi, I am</h1>
+            <h2 class="highlight">Full Stack Developer</h2>
+            <p>Building modern applications with MERN stack.</p>
+         </div>
+         <img src="IMG_20250918_165558.jpg" alt="My Picture" height="300" width="250">
+      </section>
+      <hr>
       <section id="about">
          <div>
             <h2>About Me:</h2>
-            <img src="IMG_20250918_165558.jpg" alt="My Picture" height="300" width="250">
             <h3>Welcome!</h3>
             <p>Hello! I am a Computer Science student currently studying in the KR Mangalam University, and this is my
                personal Portfolio website!</p>
@@ -41,82 +50,41 @@
                neural networks.
             </p>
          </div>
+
       </section>
       <hr>
       <section id="skills">
-         <div>
-            <h2>Technical Skills</h2>
-            <table border="1" cellpadding="6">
-               <tr>
-                  <th>Skills</th>
-                  <th>Level</th>
-               </tr>
-               <tr>
-                  <td>HTML</td>
-                  <td>Intermediate</td>
-               </tr>
-               <tr>
-                  <td>Python</td>
-                  <td>Intermediate</td>
-               </tr>
-               <tr>
-                  <td>MySQL</td>
-                  <td>Beginner</td>
-               </tr>
-               <tr>
-                  <td>CSS</td>
-                  <td>Intermediate</td>
-               </tr>
-               <tr>
-                  <td>JavaScript</td>
-                  <td>Beginner</td>
-               </tr>
-            </table>
+         <h2>My Skills</h2><br>
+         <div id="skill-button">
+            <button><span class="skill-title">HTML</span><span class="skill-level">Advanced</span></button>
+            <button><span class="skill-title">CSS</span><span class="skill-level">Advanced</span></button>
+            <button><span class="skill-title">JavaScript</span><span class="skill-level">Learning</span></button>
          </div>
       </section>
       <hr>
       <section id="projects">
          <div>
-            <h2>Current Projects</h2>
-
-            <b>Portfolio Website:</b><br> A personal one page website to showcase bio, technical skills and contact
-            details.<br>
-            <b>Expenses Tracker:</b><br> A program which adds expenses as records after every purchase, shows total
-            expenses and show all expenses.<br>
-            <b>Water Quality Assistance:</b><br> A program which identifies areas in need of assistance by
-            calculating their water quality levels.<br>
-
+            <h2 id="project">My Projects</h2>
+            <div id="img2"></div><br>
+            <div id="img3"></div>
          </div>
       </section>
       <hr>
       <section id="contact">
-         <div>
-            <h2>Contact Me</h2>
-            <form>
-               <table border="1" cellpadding="6" bordercolor="blue">
-                  <tr>
-                     <td><label for="name">Name:</label></td>
-                     <td><input type="text" id="name" name="name" placeholder="Enter Name"></td>
-                  </tr>
-                  <tr>
-                     <td><label for="email">E-Mail:</label></td>
-                     <td><input type="email" id="email" name="email" placeholder="Enter email"></td>
-                  </tr>
-                  <tr>
-                     <td><label for="message">Message:</label></td>
-                     <td><textarea id="message" name="message" rows="4" cols="20"
-                           placeholder="Enter your message here"></textarea></td>
-                  </tr>
-                  <tr>
-                     <td colspan="2"><button type="submit">Submit!</button></td>
-                  </tr>
-               </table>
-            </form>
-         </div>
+         <h2>Contact Me</h2>
+         <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Write your message"></textarea>
+            <button type="submit">Send</button>
+         </form>
       </section>
       <a href="#start" id="backtotop">Back to Top</a>
    </main>
-   <footer>&copy; My First Website</footer>
+   <footer>&copy; 2025 Saurabh Mudgal My First Website</footer>
 </body>
 
 </html>
